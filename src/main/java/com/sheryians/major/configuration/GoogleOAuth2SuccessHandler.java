@@ -33,7 +33,7 @@ public class GoogleOAuth2SuccessHandler implements AuthenticationSuccessHandler 
     @Override
     public void onAuthenticationSuccess(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Authentication authentication) throws IOException, ServletException {
         OAuth2AuthenticationToken token = (OAuth2AuthenticationToken) authentication;
-        String email = token.getPrincipal().getAuthorities().get("email").toString();
+        String email = token.getPrincipal().getAttributes().get("email").toString();
         if(userRepository.findUserByEmail(email).isPresent()) {
 
         } else {

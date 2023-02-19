@@ -46,4 +46,10 @@ public class User {
     public User() {
 
     }
+
+    //INSERT INTO users (id, email, password, first_name, last_name) VALUES
+    //(2, 'admin@example.com', '$2a$12$aaheOt1S7Tvqzos88XVOz.q6O.eILy2kpyzH5E0ves.lMI5WfoyK2', 'Admin_2', 'Mustafa');
+    //INSERT INTO user_role (user_id, role_id) VALUES
+    //(2,1);
+
 }
