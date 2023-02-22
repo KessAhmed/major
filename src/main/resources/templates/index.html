@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
           integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    <link rel="stylesheet" th:href="@{../static/css/style.css}">
+    <link href="/static/css/style.css" th:href="@{../static/css/style.css}" rel="stylesheet">
     
 </head>
 <body>
@@ -59,13 +59,11 @@
 </nav>
 
 <section class="home" id="home">
-
     <div class="content">
-        <h3>fresh and <span>organic</span> recipes for your</h3>
-        <p>Get healthy. Save time. Reduce waste. Flexible subscription. Pause, skip or cancel at any time.</p>
-        <a class="nav-link" th:href="@{/shop}" href="#">shop now</a>
+        <h3>fresh and <span>organic</span> recipes for you</h3>
+        <p> something something Awan</p>
+        <a th:href="@{/shop}" href="#" class="btn">shop now</a>
     </div>
-
 </section>
 
 
