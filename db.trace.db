@@ -8,3 +8,6 @@ INSERT INTO roles (id, name) VALUES
 2023-02-19 16:43:23 jdbc[13]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "USER_ROLE[*]"; expected "UPDATE, USE"; SQL statement:
 USER_ROLE [42001-200]
+2023-02-21 14:01:35 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY ROLES USERS[*]"; SQL statement:
+SELECT * FROM CATEGORY ROLES USERS [42000-200]
